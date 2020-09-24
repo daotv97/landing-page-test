@@ -1,0 +1,230 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+	font-weight: 400;
+	min-width: 520px;
+}
+.page__container {
+	margin: auto;
+	max-width: 1600px;
+}
+.pc__header {
+	padding: 0px;
+	margin: auto;
+	width: 100%;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22661.1%22%20viewBox=%220%200%201440%20661.1%22%3E%3Cstyle%20type=%22text/css%22%3Ecircle,%20ellipse,%20line,%20path,%20polygon,%20polyline,%20rect,%20text%20%7B%20fill:%20rgb(0,%20128,%2096)%20!important;%20%7D%3C/style%3E%3Cpath%20fill=%22rgb(0,%20128,%2096)%22%20d=%22M1440%20488c-19.3%204.3-39.2%208.6-60%2013-174.2%2036.5-228.8%20288-467%2076.2-153.6-136.6-424-22.8-660.4-5.8-130.2%209.3-252.6-75-252.6-75V0h1440%22/%3E%3C/svg%3E");
+	background-size: 1600px 830px;
+	color: #ffffff;
+}
+.pch__logo {
+	background-color: #008060;
+	padding-top: 32px;
+	margin-bottom: 40px;
+	width: 100%;
+	text-align: center;
+}
+.pch__logo > img {
+	width: 120px;
+}
+.pch__description {
+	text-align: center;
+}
+.pchd__h1 {
+	margin: 0px;
+	margin-bottom: 20px;
+	font-size: 58px;
+}
+.pchd__des1 {
+	margin: 0px;
+	margin-bottom: 30px;
+	font-size: 36px;
+}
+.pchd__form > input {
+	height: 46px;
+	width: 360px;
+	padding-left: 20px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.pchd__form > button {
+	margin-bottom: 20px;
+	height: 50px;
+	width: 160px;
+	background: #131416;
+	color: #ffffff;
+	border: 1px solid #131416;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.pchd__des2 {
+	margin: auto;
+	margin-bottom: 30px;
+	width: 520px;
+	font-size: 12px;
+	line-height: 16px;
+}
+.pch__image {
+	text-align: center;
+}
+.pch__image > img {
+	width: 50%;
+}
+
+.pc__content {
+	padding: 0px;
+	margin: auto;
+	width: 60%;
+}
+.pcc__intro-list {
+	padding: 100px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.pcci__item {
+	width: 30%;
+	font-size: 16px;
+}
+.item__icon {
+	font-size: 40px !important;
+	color: #008060;
+	margin-bottom: 12px;
+}
+.item__title {
+	margin-bottom: 12px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #212326;
+}
+.item__content {
+	color: #6b7177;
+}
+.pcc__customer-list {
+	padding: 50px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.pccc_item {
+	width: 10%;
+}
+.pccc_item > img {
+	width: 100%;
+}
+.pcc__text {
+	padding: 100px 0px;
+	width: 100%;
+}
+.pcct__maxim {
+	margin: auto;
+	margin-bottom: 30px;
+	font-size: 24px;
+	width: 70%;
+	color: #212326;
+	text-align: center;
+}
+.pcct__author {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #212326;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.buton {
+	width: 100%;
+	text-align: center;
+}
+.buton > button {
+	margin: auto;
+	height: 50px;
+	width: 160px;
+	background: #008060;
+	color: #ffffff;
+	border: 1px solid #008060;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.pc__footer {
+	margin: auto;
+	margin-bottom: 10px;
+	width: 60%;
+	text-align: right;
+}
+.btn:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+	.pc__content {
+		width: 80%;
+	}
+	.pc__footer {
+		width: 80%;
+	}
+	.pcc__customer-list {
+		margin-top: 50px;
+		padding: 50px 0px;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		border-top: 1px solid gray;
+		border-bottom: 1px solid gray;
+	}
+	.pccc_item {
+		width: 18%;
+		padding: 20px;
+	}
+	.pch__image > img {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 600px){
+	.pchd__des2 {
+		width: 90%;
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.pchd__form > button {
+		margin-top: 20px;
+	}
+	.pcc__intro-list {
+		margin: auto;
+		display: unset;
+		justify-content: unset;
+	}
+	.pcci__item {
+		padding-top: 20px;
+		width: 80%;
+		font-size: 16px;
+	}
+	.pcct__maxim {
+		width: 100%;
+	}
+	.pcct__author {
+		width: 100%;
+	}
+	.pcc__customer-list {
+		margin-top: 50px;
+		padding: 50px 0px;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		border-top: 1px solid gray;
+		border-bottom: 1px solid gray;
+	}
+	.pccc_item {
+		width: 35%;
+		padding: 20px;
+	}
+	.pch__image > img {
+		width: 90%;
+	}
+}
+
+
+
